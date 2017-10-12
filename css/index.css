@@ -10,18 +10,14 @@ body {
 
 .nosifer {
 	font-family: "Nosifer", cursive;
-}
-
-.inline {
+} .inline {
 	font-family: "Fascinate Inline", cursive;
-}
-
-.indie {
+} .indie {
 	font-family: "Indie Flower", cursive;
-}
-
-.coda {
+} .coda {
 	font-family: "Coda", cursive;
+} .pressstart {
+	font-family: "Press Start 2P", cursive;
 }
 
 .center {
