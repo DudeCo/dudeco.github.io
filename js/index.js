@@ -1,10 +1,12 @@
 var $notes = document.getElementById("notes");
 
 function random(min = 0, max = 9999) {
-	return (Math.trunc((Math.random() * ((max + 1) - min)) + min));
+	return (Math.trunc((Math.random() * ((max + 1) - min) + min)));
 }
 
-switch(random(1, 24)) {
+var notesCase = random(1, 24);
+
+switch(notesCase) {
 	case 1:
 		$notes.innerHTML = "<em>Wallruns in Games</em>: Super Freaking Simple<br><em>Wallruns in Real Life</em>: Nope. I'm outta here. ";
 		break;
@@ -78,7 +80,9 @@ switch(random(1, 24)) {
 		$notes.innerHTML = "<span class=\"coda\">: )</span>";
 		break;
 	default:
-		$notes.innerHTML = "Googled? "
+		$notes.innerHTML = "Googled? ";
 }
+
+console.log("Notes Case: " + notesCase);
 
 console.log("Program Ran");
