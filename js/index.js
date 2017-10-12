@@ -50,6 +50,35 @@ switch(random(1, 24)) {
 	case 15:
 		$notes.innerHTML = "17 years of school for a handshake and a piece of paper!?!<br><img style=\"border-radius: 50%\" src=\"assets/jackiechanmeme.png\">";
 		break;
+	case 16:
+		$notes.innerHTML = "I think you need a team for teamwork to work... ";
+		break;
+	case 17:
+		$notes.innerHTML = "I was laying in bed, when suddenly, I had an idea!<br>Make random text display in this div tag. ";
+		break;
+	case 18:
+		$notes.innerHTML = "GitHub Incorperated, you're my best friendo. ";
+		break;
+	case 19:
+		$notes.innerHTML = "Crazy, ain't it? ";
+		break;
+	case 20:
+		$notes.innerHTML = "I look up and I see...<br>A crappy computer at a table with a crappy mouse...<br>What did you think was going to be there, <em>Lamborghini 88 Tauri</em>?<br>Yeah. Not happening.";
+		break;
+	case 21:
+		$notes.innerHTML = "That's one purple dragon... ";
+		break;
+	case 22:
+		$notes.innerHTML = "Don't let me down, unless you're picking me up. ";
+		break;
+	case 23:
+		$notes.innerHTML = "<span class=\"coda\">:D</span>";
+		break;
+	case 24:
+		$notes.innerHTML = "<span class=\"coda\">: )</span>";
+		break;
+	default:
+		$notes.innerHTML = "Googled? "
 }
 
 console.log("Program Ran");
