@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Press+Start+2P|Bungee+Shade|Bungee+Inline|Coda|Nosifer|Fascinate+Inline|Indie+Flower');
+
+body {
+	/*font-family: "Impact", Charcoal, sans-serif;*/
+	background-color: #4f4f4f;
+	font-family: "Coda", cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nosifer {
+	font-family: "Nosifer", cursive;
+}
+
+.inline {
+	font-family: "Fascinate Inline", cursive;
+}
+
+.indie {
+	font-family: "Indie Flower", cursive;
+}
+
+.center {
+	text-align: center;
+}
+
+.separator {
+	color: #76dbed;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.vertical-align75 {
+	position: relative;
+	top: 50%;
+	padding: 0px;
+}
+
+.wrapper010 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 100%;
+} .wrapper010 > div {
+	background: #4f4f4f;
+	padding: 0.5em;
+} .wrapper010 > div:nth-child(odd) {
+	background: #3d3d3d;
+}
+
+.wrapper001 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	height: 100%;
+} .wrapper001 > div {
+	background: #4f4f4f;
+	padding: 0.5em;
+} .wrapper001 > div:nth-child(odd) {
+	background: #3d3d3d;
+}
+
+.wrapper-box {
+	padding: 0px;
+	text-align: center;
+	color: white;
+}
+
+#top-section {
+	background-color: #4f4f4f;
+	color: white;
+	font-family: "Bungee Shade", cursive;
+	height: 100%;
+	width: 100%;
+} #top-section > div {
+	text-align: center;
+}/* #top-section > div > p {
+	font-family: "Bungee InLine", cursive;
+}*/
+
+footer {
+	background-color: #4f4f4f;
+	margin: 0px;
+	color: white;
+}
