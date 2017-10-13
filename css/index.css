@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Press+Start+2P|Bungee+Shade|Bungee+Inline|Coda|Nosifer|Fascinate+Inline|Indie+Flower');
 
+@font-face {
+	font-family: ImaginaryFriend;
+	src: url("../fonts/Imaginary Friend.ttf");
+}
+
+html {
+	overflow-x: hidden;
+}
+
 body {
 	/*font-family: "Impact", Charcoal, sans-serif;*/
 	background-color: #4f4f4f;
@@ -8,6 +17,9 @@ body {
 	padding: 0px;
 }
 
+.imaginaryFriend {
+	font-family: "ImaginaryFriend";
+}
 .nosifer {
 	font-family: "Nosifer", cursive;
 } .inline {
@@ -84,4 +96,14 @@ footer {
 	background-color: #4f4f4f;
 	margin: 0px;
 	color: white;
+} footer > #leftside {
+	float: left;
+	width: 50%;
+	padding: 2%;
+	height: auto;
+} footer > #rightside {
+	float: right;
+	width: 50%;
+	padding: 2%;
+	height: auto;
 }
