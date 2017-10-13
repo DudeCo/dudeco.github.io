@@ -158,6 +158,7 @@ function glitchOut() {
 function activateWitchingHour() {
 	witchingHour = true;
 	glitchOut();
+	console.log("Witching Hour Activated");
 }
 
 function deactivateWitchingHour() {
@@ -170,4 +171,5 @@ function deactivateWitchingHour() {
 	aboutText.innerHTML = "The";
 	crewText.innerHTML = "Page";
 	dudeimage.innerHTML = "<img style=\"width: 25%; border-radius: 50%\" src=\"assets/icon.png\">";
+	console.log("Witching Hour Deactivated");
 }
